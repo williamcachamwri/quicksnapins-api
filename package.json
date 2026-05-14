@@ -1,0 +1,25 @@
+{
+  "name": "instakit",
+  "version": "0.1.0",
+  "description": "TypeScript client for Instagram Instants (Moonshot) private API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@types/sharp": "^0.31.1",
+    "axios": "^1.7.2",
+    "form-data": "^4.0.0",
+    "grammy": "^1.42.0",
+    "otplib": "^13.4.0",
+    "sharp": "^0.34.5",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.41",
+    "@types/uuid": "^9.0.0",
+    "typescript": "^5.4.0"
+  }
+}

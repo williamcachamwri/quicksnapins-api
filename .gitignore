@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Sessions (contain sensitive auth tokens)
+sessions/
+session_*.json
+
+# IPA binary (large file, sensitive)
+*.ipa
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test artifacts
+k.png
