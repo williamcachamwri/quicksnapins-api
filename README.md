@@ -35,7 +35,7 @@
 
 Instagram does not publish a public API for this feature. All endpoints, field names, GraphQL operation names, and `client_doc_id` values in this library were obtained by:
 
-1. Decrypting the App Store IPA with [TTJB's decryption tool](https://github.com/TTJB)
+1. Decrypting the App Store IPA with [TTJB's decryption tool](https://decrypt.thuthuatjb.com)
 2. Running `strings` against the Mach-O binary to extract plaintext constants
 3. Cross-referencing extracted strings against live network traffic
 
